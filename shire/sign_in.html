@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Shire Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+<div id="content">
+    <div class="textcols">
+        <div class="textcols-item">
+            <img src="https://i.ibb.co/w7BBZdk/photo-5463188621327710742-x.jpg" alt="photo">
+        </div>
+        <div class="textcols-item">
+            <div class="text">
+                <h2 style="font-size: x-large"><b>ВХОД</b></h2>
+            </div>
+            <form class="form">
+                <ul>
+                    <li>
+                        <label for="email"><b>E-mail</b></label>
+                        <input type="email" name="email" placeholder="Введите адрес электронной почты" maxlength="50">
+                    </li>
+                    <li>
+                        <label for="password"><b>Пароль</b></label>
+                        <input type="password" name="password" placeholder="********" maxlength="50" id="password">
+                        <div id="toggle" onclick="showHide();"></div>
+                    </li>
+                </ul>
+            </form>
+            <div class="full">
+                <div class="full-width">
+                    <input type="checkbox" id="newsletter" />
+                    <label for="newsletter">Запомнить меня</label>
+                </div>
+                <div class="full-width">
+                    <h5 style="font-size: 0.85rem"><b>Забыли пароль?</b></h5>
+                </div>
+            </div>
+            <div class="button-div">
+                <button class="button-stay bordovum">Войти</button>
+            </div>
+            <p>Либо войдите с помощью</p>
+            <div class="social-container">
+                <p><a href="#"><img src="https://i.ibb.co/PMWLj9f/image.png" class="google"></a> </p>
+                <p><a href="#"><img src="https://i.ibb.co/wctMtVh/image.png" class="vk"></a> </p>
+                <p><a href="#"><img src="https://i.ibb.co/d20zbHP/image.png" class="facebook"></a> </p>
+            </div>
+            <h5 style="font-size: 0.9rem">Нет аккаунта? Зарегистрируйтесь!</h5>
+        </div>
+    </div>
+</div>
+<a href="#" id="button">Кнопка</a>
+
+<script  src="js.js"></script>
+
+</body>
+</html>
